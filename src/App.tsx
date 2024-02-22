@@ -26,7 +26,7 @@ function App() {
           <Question object="哈士奇" object2="husky" />
           <Question object="小提琴" object2="violin" />
           <Question object="射箭" object2="archery" />
-          <Question object="喝水" object2="drink water" />
+          <Question object="吃饭" object2="eating" />
           <Question object="自由发挥" object2="freestyle" />
           <Question object="哈士奇" object2="husky" />
           <Question object="小提琴" object2="violin" />
