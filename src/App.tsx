@@ -1,5 +1,6 @@
 // App.tsx
 import { Question } from "./question";
+import Rabbit from "./assets/spline";
 
 function App() {
   return (
@@ -33,9 +34,7 @@ function App() {
           <Question object="射箭" object2="archery" />
         </div>
 
-        <div className="container2">
-          <p>Rules</p>
-        </div>
+        <Rabbit />
       </div>
     </>
   );

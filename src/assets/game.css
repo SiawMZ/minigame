@@ -2,6 +2,8 @@
 .background {
   background-color: rgb(255, 242, 223);
   height: 1080px;
+  z-index: -1;
+
 }
 
 .grid-container {
@@ -31,6 +33,7 @@
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
     cursor: pointer; /* Add cursor pointer to indicate interactivity */
     transform-style: preserve-3d; /* Enable 3D transformation */
+    z-index: 1;
   }
   
   .card.flipped .card__content {
@@ -76,3 +79,10 @@
     transform: rotate(-45deg);
   }
   
+
+  .splineContainer {
+    position: absolute;
+    top:-150px;
+    left: -280px;
+    z-index: 0;
+  }
