@@ -1,7 +1,7 @@
 import Spline from "@splinetool/react-spline";
 import "./game.css";
 
-export default function App() {
+export default function Rabbit() {
   return (
     <>
       <div className="splineContainer">

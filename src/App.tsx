@@ -28,10 +28,10 @@ function App() {
           <Question object="小提琴" object2="violin" />
           <Question object="射箭" object2="archery" />
           <Question object="吃饭" object2="eating" />
-          <Question object="自由发挥" object2="freestyle" />
-          <Question object="哈士奇" object2="husky" />
-          <Question object="小提琴" object2="violin" />
-          <Question object="射箭" object2="archery" />
+          <Question object="福克斯" object2="21th Century Fox" />
+          <Question object="保龄球" object2="bowling" />
+          <Question object="钢琴" object2="piano" />
+          <Question object="篮球" object2="basketball" />
         </div>
 
         <Rabbit />
